@@ -1,6 +1,6 @@
 import React from 'react';
-import { Formik, Field, Form , ErrorMessage} from 'formik';
-import * as Yup from 'yup'
+        import { Formik, Field, Form , ErrorMessage} from 'formik';
+        import * as Yup from 'yup'
 
 
 
@@ -83,8 +83,7 @@ const LoginFormik = () => {
                       </Form>
                 )
                 }
-                   {/*  We obtain props from Formik
-                   FORMA 1  */}
+                  
                 </Formik>
         </div>
     );
